@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704100245507-push-trigger-input-set
+  identifier: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704100245507pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: seleniumtest
+  pipeline:
+    identifier: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704100245507
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
