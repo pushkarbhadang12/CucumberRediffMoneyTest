@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704101485452-pr-trigger-input-set
+  identifier: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704101485452prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: seleniumcucumbertest
+  pipeline:
+    identifier: Build_pushkarbhadang12_CucumberRediffMoneyTest_1704101485452
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
