@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -36,7 +36,7 @@ jobs:
         java-distribution: temurin
         maven-version: 3.9.6
      
-    - uses: browser-actions/setup-chrome@v120.0.6099.130
+    - uses: browser-actions/setup-chrome@latest
     - run: chrome --version     
      
     - name: Build with Maven
