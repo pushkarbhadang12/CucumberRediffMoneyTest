@@ -19,7 +19,7 @@ Feature: Rediff Money Portfolio Operations
     
     Examples: 
       | PortfolioName |  
-      | "Portfolio1"  |     
+      | "Portfolio2"  |     
      
   
   @RenamePortfolio
@@ -34,7 +34,7 @@ Feature: Rediff Money Portfolio Operations
     
     Examples: 
       | PortfolioName | NewPortfolioName|
-      | "Portfolio1"  | "MyPortfolio1"  |       
+      | "Portfolio2"  | "MyPortfolio2"  |       
      
   @exclude   
   @DeletePortfolio
