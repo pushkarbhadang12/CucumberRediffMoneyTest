@@ -36,7 +36,7 @@ jobs:
         java-distribution: temurin
         maven-version: 3.9.6
      
-    - uses: browser-actions/setup-chrome@latest
+    - uses: browser-actions/setup-chrome@119
     - run: chrome --version     
      
     - name: Build with Maven
