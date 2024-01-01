@@ -37,7 +37,7 @@ jobs:
         maven-version: 3.9.6
      
     - uses: browser-actions/setup-chrome@latest
-      run: chrome --version     
+    - run: chrome --version     
      
     - name: Build with Maven
       run: mvn -B package --file RediffMoneyCucumberPOM/pom.xml
